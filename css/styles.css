@@ -554,6 +554,9 @@ img {
 .conteiner-footer {
   margin-right: 70px;
 }
+.conteiner-foot {
+  margin-right: 93px;
+}
 
 .social-list-item-footer:not(:last-child) {
   margin-right: 10px;
@@ -883,6 +886,10 @@ img {
   background-color: var(--accent-color);
   background-image: url(../images/iconcheck.svg);
 }
+.modal-form-check-policy:hover + .modal-form-label-policy::before {
+  background-color: var(--accent-color);
+}
+
 .modal-form-label-policy::before {
   display: inline-block;
   content: "";
@@ -891,6 +898,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   margin-right: 7px;
   border-radius: 2px;
+  cursor: pointer;
 }
 .p-in-modal {
   font-weight: 700;
@@ -952,16 +960,20 @@ img {
   align-items: center;
   cursor: pointer;
 }
+.checkbox-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .agriment {
   color: var(--accent-color);
 }
 /*======================FORM IN FOOTER============================*/
 .form-footer {
   display: flex;
+  margin-left: auto;
 }
-.footer-conteiner-form {
-  margin-left: 93px;
-}
+
 .p-for-footer {
   font-weight: 700;
   font-size: 14px;
@@ -993,8 +1005,6 @@ img {
 .button-submit-foot-svg {
   margin-left: 10px;
 }
-.checkbox-cont {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.conteiner-foot {
+  margin-left: auto;
 }
