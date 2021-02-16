@@ -886,7 +886,7 @@ img {
   background-color: var(--accent-color);
   background-image: url(../images/iconcheck.svg);
 }
-.modal-form-check-policy:hover + .modal-form-label-policy::before {
+.modal-form-check-policy:focus + .modal-form-label-policy::before {
   background-color: var(--accent-color);
 }
 
