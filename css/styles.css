@@ -938,20 +938,21 @@ img {
   width: 1px !important;
   overflow: hidden;
 }
-.modal-form-messege {
+.modal-form-input-label:last-of-type {
   margin-bottom: 25px;
-}
-.modal-form-label-policy {
-  margin-bottom: 30px;
-  font-size: 14px;
-  line-height: 1.171;
-  letter-spacing: 0.03em;
-  color: var(--text-color);
 }
 .modal-form-label-policy {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  font-size: 14px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.checkbox-cont {
+  margin-bottom: 30px;
 }
 .modal-form-input-label {
   font-size: 12px;
